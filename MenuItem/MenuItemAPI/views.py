@@ -7,3 +7,6 @@ class MenuItemViewSet(viewsets.ViewSet):
 
 class ReadOnlyMenuItemView(viewsets.ReadOnlyModelViewSet):
     
+class MenuItemView(generics.ListAPIView, generics.CreateAPIView):
+    
+class MenuItemView(generics.ListCreateAPIView):
